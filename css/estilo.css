@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/*"Oswald"*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+/*"DM Serif Text"*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #0F0D13;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Classes
+----------------*/
+.tracado{
+    color: #8e9091;
+    text-decoration: line-through;
+}
+
+.titulo_duplo{
+    width: 225px;
+}
+
+.titulo_duplo_extra{
+    width: 285px;
+}
+
+.titulo_unico{
+    width: 165px;
+}
+
+.conteudo{
+    margin: 140px 0;
+}
+
+/*Botoes
+----------------*/
+.botao_preto{
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ffffff8d;
+    background-color: #0F0D13;
+}
+
+.botao_preto:hover{
+    background-color: #292531
+}
+
+.botao_roxo{
+    background-color: #A238FF;
+    color: white;
+    font-weight: bold;
+}
+
+.botao_roxo:hover{
+    background-color: #761dc4
+}
+
+.botao_branco{
+    color: black;
+    font-weight: bold;
+    border: 1px solid #8989899b;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.botao_branco:hover{
+    background-color: #e0e0e0;
+}
+
+.botao_transparente{
+    color: black;
+    font-weight: bold;
+    border: 1px solid #8989899b;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.botao_transparente:hover{
+    background-color: #e0e0e0;
+}
+
+/*Navegação
+----------------*/
+nav{
+    background-color: #0F0D13;
+    border-bottom: 1px solid #a8a8a891;
+}
+
+#barraNav button{
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#barraNav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#barraNav a:hover{
+    color: #A238FF;
+}
+
+/*Letreiro
+-------------------*/
+#letreiro{
+    color: white;
+    font-family: Oswald;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#letreiro div.container{
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#letreiro div.row{
+    white-space: nowrap
+}
+
+#letreiro-rapido{
+    letter-spacing: -8px;
+    animation: letreiro 16s infinite linear;
+}
+
+#letreiro-devagar{
+    letter-spacing: -8px;
+    animation: letreiro 25s infinite linear;
+}
+
+#letreiro-rapido img, #letreiro-devagar img{
+    padding-bottom: 30px;
+    padding-left: 7px;
+}
+
+@keyframes letreiro {
+    from{
+        transform: translateX(0%);
+    }
+    
+    to{
+        transform: translateX(-25%);
+    }
+}
+
+/*Blocos
+----------------*/
+#opcoes{
+    background-image: linear-gradient(to bottom, #0F0D13,#9538F2);
+}
+
+.bloco_branco_pequeno{
+    height: 210px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 30px;
+}
+
+.bloco_branco_medio{
+    height: 280px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 2px 0;
+}
+
+.bloco_branco_medio_mais{
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 2px 0;
+}
+
+#opcoes h1{
+    text-align: center;
+    background-color: #151219;
+    color: white;
+    margin: 20px 0;
+    padding: 0 10px 2px 10px;
+    font-family: Oswald;
+    border-radius: 10px;
+}
+
+#opcoes h4{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#opcoes .uni_p{
+    margin-bottom: 20px;
+}
+
+#opcoes .sub_p{
+    margin-bottom: 15px;
+}
+
+#opcoes p{
+    color: #6d6f71;
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#opcoes .botao_preto{
+    background-color: #151219;
+    height: 54px;
+    border-radius: 15px;
+    margin-bottom: 23px;
+}
+
+#opcoes .botao_preto:hover{
+    background-color: #292531
+}
+
+#opcoes a{
+    color: #232222;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/*Descrição
+--------------*/
+#descricao{
+    color: black;
+    background-color: white;
+    padding-top: 70px;
+}
+
+#decricao_inicio{
+    padding-bottom: 50px;
+}
+
+#descricao h1{
+    font-size: 64px;
+    font-family: "DM Serif Text";
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#descricao .conteudo h1{
+    line-height: 60px;
+}
+
+#descricao .conteudo p{
+    color: #6d6f71;
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#descricao #decricao_inicio p{
+    color: #8e9091;
+    margin-bottom: 30px;
+}
+
+#descricao #decricao_inicio{
+    text-align: center;
+}
+
+/*Sub Conteudo
+-------------------*/
+#sub_conteudo{
+    padding: 100px 0;
+    background-color: #F2F2F2;
+}
+
+#sub_conteudo div.row div{
+    text-align: center;
+}
+
+#sub_conteudo div.row h1{
+    font-family: "DM Serif Text";
+    font-weight: bold;
+    font-size: 64px;
+
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+#sub_conteudo div.row p{
+    color: #6d6f71;
+
+    font-weight: bold;
+}
+
+#sub_conteudo #imagens img{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+#sub_conteudo #imagens p{
+    color: #6d6f71;
+    margin-top: 15px;
+
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*Sub Descricao
+-------------------*/
+#sub_descricao{
+    color: white;
+}
+
+#sub_descricao h1{
+    font-size: 64px;
+    font-family: "DM Serif Text";
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#sub_descricao .conteudo p{
+    color: #9a9c9e;
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sub_descricao .botao_preto{
+    border-radius: 10px;
+}
+
+#sub_descricao h4{
+    font-weight: bold;
+}
+
+#sub_descricao .conteudo_exposto{
+    height: 183px;
+    margin-bottom: 15px;
+}
+
+#sub_descricao .conteudo_oculto{
+    margin-bottom: 20px;
+}
+
+#sub_descricao .conteudo_exposto p{
+    color: #8a8a8a;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#sub_descricao .letras_miudas{
+    margin-top: 100px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*Links Finais
+-----------------*/
+#links{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#links h1{
+    color: #929495;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#links li{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#redes li{
+    padding: 0 10px;
+}
+
+#redes a{
+    color: white;
+}

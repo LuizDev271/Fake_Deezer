@@ -1,0 +1,94 @@
+@media (max-width: 575.98px){
+    #descricao{
+        text-align: center;
+    }
+
+    #descricao h1{
+        text-align: center;
+        font-size: 31px;
+    }
+    
+    #descricao .conteudo h1{
+        line-height: 40px;
+    }
+
+    #descricao #decricao_inicio{
+        padding-bottom: 0;
+    }
+
+    #descricao .col-md-6 button{
+        margin-bottom: 50px;
+    }
+
+    .conteudo{
+        margin: 60px 0;
+    }
+
+    .mudar{
+        flex-direction: column-reverse;
+    }
+
+    #sub_conteudo div.row h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #sub_descricao h1{
+        text-align: center;
+        font-size: 36px;
+    }
+
+    #sub_descricao h4{
+        font-size: 18px;
+    }
+
+    #sub_descricao p{
+        text-align: center;
+    }
+
+    #sub_descricao .conteudo_exposto p{
+        text-align: left;
+        font-size: 11px;
+    }
+
+    #sub_descricao button{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #links > .container > .row > .col-2 > h1{
+        width: 200px;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    #links > .container > .row > .col-2 > ul{
+        padding-left: 10px;
+    }
+
+    #links > .container > .row > .col-2 > ul > li{
+        width: 250px;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    #links .row{
+        flex-direction: column;
+
+    }
+
+    #redes{
+        flex-direction: column-reverse
+    }
+
+    #redes img{
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    #redes h1{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+}
